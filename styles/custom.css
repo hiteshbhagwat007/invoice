@@ -1,0 +1,48 @@
+/* Custom CSS styles */
+.stepper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .step {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid lightgray;
+    cursor: pointer;
+  }
+  
+  .step.active {
+    font-weight: bold;
+    border-bottom: 2px solid blue;
+  }
+  
+  .step-content {
+    display: none;
+  }
+  
+  .step-content.active {
+    display: block;
+  }
+  
+  .btn-next,
+  .btn-previous,
+  .btn-generate,
+  .btn-add {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .btn-previous {
+    background-color: gray;
+  }
+  
+  .btn-add {
+    background-color: green;
+  }
+  
